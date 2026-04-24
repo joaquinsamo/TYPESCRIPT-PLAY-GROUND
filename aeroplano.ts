@@ -147,3 +147,6 @@ let  cubierta:Cubierta = new Cubierta(true,true,true,4,4);
 
 let aeroplano=new Aeroplano(helice, trenAterrizaje, alas, cubierta);
 console.log(aeroplano.ToString());
+let aeropuerto = new Aeropuerto();
+aeropuerto.agregarAeroplano(aeroplano);
+aeropuerto.mostrarAeroplanos();
