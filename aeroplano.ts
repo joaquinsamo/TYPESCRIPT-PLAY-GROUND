@@ -127,7 +127,19 @@ class Aeroplano
 
     }
 }
+class Aeropuerto {
+    private aeroplanos: Aeroplano[] = [];
 
+    agregarAeroplano(a: Aeroplano) {
+        this.aeroplanos.push(a);
+    }
+
+    mostrarAeroplanos() {
+        this.aeroplanos.forEach(a => {
+            console.log(a.ToString());
+        });
+    }
+}
 let  helice: Helice = new Helice(3);
 let  trenAterrizaje:TrendeAterrizaje = new TrendeAterrizaje(2,3,true);
 let  alas: Alas = new Alas(2,3);
