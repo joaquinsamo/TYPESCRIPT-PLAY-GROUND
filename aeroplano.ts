@@ -150,3 +150,5 @@ console.log(aeroplano.ToString());
 let aeropuerto = new Aeropuerto();
 aeropuerto.agregarAeroplano(aeroplano);
 aeropuerto.mostrarAeroplanos();
+//El código fue implementado y ejecutado correctamente en un entorno local utilizando TypeScript.
+//Se compiló el archivo .ts a .js y se ejecutó con Node.js, obteniendo como salida la descripción del aeroplano y sus componentes.
