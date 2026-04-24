@@ -152,3 +152,5 @@ aeropuerto.agregarAeroplano(aeroplano);
 aeropuerto.mostrarAeroplanos();
 //El código fue implementado y ejecutado correctamente en un entorno local utilizando TypeScript.
 //Se compiló el archivo .ts a .js y se ejecutó con Node.js, obteniendo como salida la descripción del aeroplano y sus componentes.
+//En el código presentado no existen relaciones de jerarquía (herencia), ya que ninguna clase utiliza la palabra clave extends.
+//No existe una diferencia significativa en el tiempo de ejecución entre ambas. Tanto la composición como la agregación trabajan con referencias a objetos en memoria, por lo que su rendimiento es prácticamente el mismo.
